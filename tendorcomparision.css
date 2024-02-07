@@ -1,0 +1,48 @@
+h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 500px;
+}
+form {
+    
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 10px 50px rgba(217, 213, 213, 0.881);
+}
+input[type="tenderid"],[type="keyword"]{
+    width: 98%;
+    padding: 5px;
+    outline: black;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button[id="compare"]{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(6, 90, 235);
+    color: #fdf8f8;
+    border: 1px solid #7e7878;
+    box-shadow: 0 2px 10px rgba(0,0,0.2, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+}
+select[id="compare"]{
+    width: 102%;
+    padding: 5px;
+    outline: black;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
